@@ -1,0 +1,36 @@
+body {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+header{
+    margin-top: 70px;
+    background-color: ivory;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}px
+
+h2{
+    color: rgb(224, 59, 87);
+    font-family: cursive;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    margin-bottom: 300px;
+}
+
+.imagemcat{
+    margin-bottom: 70px;
+    width: 100px;
+
+}
+
+.simbol{
+    margin-bottom: 3px;
+}
