@@ -1,36 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    margin-left: 300px;
-    margin-right: 300px;
+    background-color: rgba(253, 241, 249, 0.952);
+    background-size: auto 100vh;
+    height: 100vh;
+    font-family: 'Sacramento', cursive;
+    font-size: 1em;
+}
+
+@media (min-width: 600px){
+    .menu{font-size: 2em;}
+}
+
+@media (min-width: 600px){
+    body{font-size: 2em;}
 }
 
 header{
-    margin-top: 70px;
-    background-color: ivory;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}px
-
-h2{
-    color: rgb(224, 59, 87);
-    font-family: cursive;
-}
-
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 footer{
-    margin-bottom: 300px;
+    text-align: center;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+}
+
+h2,
+h1 {
+    color: maroon;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2{
+    font-style: oblique;
+    font-family: 'Indie Flower', cursive;
+}
+
+.menu {
+    background-image: url('../img/fundo.jpg');
+    color: black;
+    font-size: 1em;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu li{
+    list-style: none;
+    font-family: 'Sacramento', cursive;
+}
+
+.menu a{
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.sobre{
+    text-align: center;
+}
+
+.perfil{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.produtos .image{
+    display: grid;
+}
+
+@media (min-width: 400px){
+    .produtos .image{
+        align-content: center;
+        grid-template-columns: repeat(3, 200px);
+        justify-content: center;
+    }
+}
+
+.produtos figure{
+    text-align: center;
+}
+
+.contato{
+    align-items: center;
+    background-image: url('../img/fundo.jpg');
+    margin-top: auto;
+}
+
+.contato li,
+.produtos li{
+    list-style: none;
+}
+
+.contato ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contato .div{
+    text-align: center; 
+}
+
+.contato a{
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.img_header{
+    text-align: center;
 }
 
 .imagemcat{
-    margin-bottom: 70px;
-    width: 100px;
-
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .simbol{
     margin-bottom: 3px;
-}
+    width: 30px;
+} 
